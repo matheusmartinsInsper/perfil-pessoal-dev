@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none
+}
+html {
+    scroll-behavior: smooth;
+}
+.links {
+  color: black;
+  margin-left: 10px;
+  font-size: 19px
+}
+#linkbutton {
+    font-size: 16px;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.3s ease;
+}
+#linkbutton:hover {
+    color:#2E3840;
+    transition: 0.3s ease;
+}
+#back {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px 35px;
+    
+}
+header>div>ul {
+    display: flex
+}
+header>div>p {
+    font-size: 20px
+}
+header>div>ul>li {
+  margin-left: 15px;
+  font-size: 18px
+}
+#img {
+    width: 170px;
+    height: 260px;
+    position: relative;
+    left: -15px;
+    top: -30px
+}
+#imgContainer {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+.about>p {
+    text-align: center
+}
+.about>h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px
+}
+.about>button {
+    font-size: 14px;
+    padding: 8px;
+    width: 120px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #2E3840;
+    color: whitesmoke;
+    border: 2px solid #2E3840;
+    transition: 0.3s ease;
+    cursor: pointer
+}
+.about>button:hover {
+    font-size: 14px;
+    background-color: whitesmoke;
+    color: #2E3840;
+    border: 2px solid #2E3840;
+    transition: 0.3s ease
+} 
+.stack {
+    background-color: #2E3840;
+    align-items: center;
+   margin-top : 60px;
+   color: whitesmoke;
+   display: flex;
+   height: 400px;
+   padding: 10px 35px
+}
+#imgback {
+    width: 700px;
+    height: 100%;
+    position: relative;
+    left: -120px
+}
+.stack-left {
+    overflow: hidden;
+    width: 40%;
+    height: 90%;
+   border-radius: 15px
+}
+.stack-right {
+    padding-left: 40px
+}
+.stack-right>div>h2 {
+    margin-top: 15px
+}
+.contact-right{
+    overflow: hidden;
+    width: 40%;
+    height: 90%;
+   border-radius: 15px
+}
+.contact-left {
+    width: 60%;
+}
+.contact {
+    
+    align-items: center;
+   margin-top : 40px;
+ 
+   display: flex;
+   height: 400px;
+   padding: 10px 35px
+}
+.evolution1 {
+    width: 300px;
+    height: 10px;
+    background-color: #9e10e0;
+    border-radius: 5px;
+    margin-left: 20px
+}
+.evolution2 {
+    width: 200px;
+    height: 10px;
+    background-color: #9e10e0;
+    border-radius: 5px;
+    margin-left: 20px
+}
+.evolution3 {
+    width: 100px;
+    height: 10px;
+    background-color: #9e10e0;
+    border-radius: 5px;
+    margin-left: 20px
+}
+.stack-habilit {
+    margin-top: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between
+}
+.linksContact {
+    color: black;
+   margin: 30px
+}
+.contact-left>h1 {
+    margin-bottom: 20px
+}
+#icons {
+    margin-right: 15px;
+    font-size: 25px
+}
+#icons:hover {
+    color: #9e10e0
+}
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column
+    }
+    .stack {
+        display: flex;
+        flex-direction: column;
+        height:100%;
+        
+    }
+    .stack-left {
+        width: 90%;
+        height:300px;
+        margin-top: 10px
+    }
+    .stack-right {
+        padding-left: 0px;
+        margin-bottom: 10px
+    }
+    .evolution1 {
+        width: 200px;
+        height: 10px;
+        background-color: #9e10e0;
+        border-radius: 5px;
+        margin-left: 20px
+    }
+    .evolution2 {
+        width: 100px;
+        height: 10px;
+        background-color: #9e10e0;
+        border-radius: 5px;
+        margin-left: 20px
+    }
+    .evolution3 {
+        width: 50px;
+        height: 10px;
+        background-color: #9e10e0;
+        border-radius: 5px;
+        margin-left: 20px
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        height:100%;
+        margin: 0px 0px
+    }
+    .contact-right {
+        width: 90%;
+        height: 300px;
+        margin: 10px 0px
+    }
+   
+}
